@@ -10,6 +10,14 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Player">
+      <script>scripts\scr_Player_Movement.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_Player</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\RunningField</room>
   </rooms>
