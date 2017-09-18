@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_Player_Movement</script>
+            <script>scr_Player_On_Step</script>
           </argument>
           <argument>
             <kind>0</kind>

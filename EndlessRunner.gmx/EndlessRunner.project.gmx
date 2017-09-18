@@ -12,7 +12,11 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Player">
-      <script>scripts\scr_Player_Movement.gml</script>
+      <script>scripts\scr_Player_On_Step.gml</script>
+    </scripts>
+    <scripts name="Step_Functions">
+      <script>scripts\scr_Player_Gravity.gml</script>
+      <script>scripts\scr_Player_Jump.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
